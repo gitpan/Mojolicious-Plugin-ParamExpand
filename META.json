@@ -1,0 +1,48 @@
+{
+   "abstract" : "Use objects and data structures in your forms",
+   "author" : [
+      "Skye Shaw <sshaw AT lucas.cis.temple.edu>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.6101, CPAN::Meta::Converter version 2.112621",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mojolicious-Plugin-ParamExpand",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "CGI::Expand" : 0,
+            "Mojolicious" : "2.52"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/sshaw/Mojolicious-Plugin-ParamExpand/issues"
+      },
+      "homepage" : "http://github.com/sshaw/Mojolicious-Plugin-ParamExpand"
+   },
+   "version" : "0.01"
+}
